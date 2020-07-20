@@ -20,7 +20,8 @@ module.exports = {
       const { title, body } = req.body;
       //sails.log.warn(title + " " + body);
       await Posts.create({ title, body });
-      res.status(200).json({ message: "Post created successfully!" });
+      //res.status(200).json({ message: "Post created successfully!" });
+      return res.redirect("/home");
     } catch (error) {
       res.send(500, { error: "Database Error" });
     }
