@@ -1,5 +1,5 @@
 {
-  "name": "test-project",
+  "name": "my-journal",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -13,7 +13,8 @@
     "sails-hook-grunt": "^4.0.0",
     "sails-hook-morgan": "^1.0.5",
     "sails-hook-orm": "^2.1.1",
-    "sails-hook-sockets": "^2.0.0"
+    "sails-hook-sockets": "^2.0.0",
+    "sails-mongo": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "5.16.0"
